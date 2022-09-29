@@ -148,11 +148,10 @@ padding: 200px 0;
 
 /* --------------About---------------- */
 .about {
-	margin-top: 94px;
-	margin-bottom: 94px;
+padding: 94px 0;
 }
 .occupation {
-	margin-bottom: 94[x];
+	padding-bottom: 94px;
 }
 .list {
 	display: flex;
@@ -234,6 +233,7 @@ padding: 200px 0;
 	display: block;
 }
 .footer-logo {
+	display: block;
 	color: var(--common-color);
 	margin-bottom: 20px;
 }
@@ -254,6 +254,7 @@ padding: 200px 0;
 	line-height: 1.72;
 	letter-spacing: 0.03em;
 	color: var(--common-color);
+	margin-bottom: 9px;
 }
 .contacts-address {
 	font-style: normal;
@@ -283,13 +284,12 @@ padding: 200px 0;
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	
+	margin-bottom: 50px;
 }
 .portfolio-information-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-item {
@@ -299,7 +299,6 @@ padding: 200px 0;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--common-color);
-	margin-bottom: 50px;
 }
 .portfolio-item-content {
 	padding-top: 20px;
@@ -326,12 +325,16 @@ padding: 200px 0;
 	background-color: var(--active-link-color);
 	color: var(--common-color);
 }
-
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 .portfolio-information-item {
 	border-bottom: 1px solid #EEEEEE;
 	border-right: 1px solid #EEEEEE;
 	border-left: 1px solid #EEEEEE;
-	width: calc(100% / 3 - 60px);
+	width: calc((100% - 60px) / 3);
 }
 .portfolio-information-title {
 	font-weight: 700;
